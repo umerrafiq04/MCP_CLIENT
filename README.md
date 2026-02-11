@@ -157,3 +157,18 @@ Or via API integration.
 
 Umer Rafiq
 ---
+---
+
+# 🔗 Related Repositories
+
+This MCP Client connects:
+
+- 🛠️ **MCP Server (Tool Execution Layer)**  
+  https://github.com/umerrafiq04/MCP_SERVER
+
+- 🎨 **Frontend + FastAPI Layer**  
+  https://github.com/umerrafiq04/MCP_CLIENT_-_FRONTEND
+
+---
+
+
