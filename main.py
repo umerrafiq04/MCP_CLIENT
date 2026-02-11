@@ -29,7 +29,7 @@ async def main():
     named_tools={tool.name:tool for tool in tools}
     llm =ChatOpenAI(model="gpt-4o-mini")
     llm_with_tools=llm.bind_tools(tools)
-    prompt="add the following expenses:physics subscription of rupees 200 last sunday"
+    prompt="delete a file by the name moon.txt"
     response=await llm_with_tools.ainvoke(prompt)
     print(f"tool called: {response.tool_calls}")
     if not getattr(response,"tool_calls",None):
